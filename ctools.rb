@@ -4,10 +4,8 @@ cask 'ctools' do
 	depends_on cask: 'xquartz'
 	depends_on cask: 'docker'
 
-  url ''
+  url 'https://github.com/lksesham/homebrew-ctools/blob/master/ctools.tar.gz'
   name 'cirrustools'
-  homepage ''
-  app 'ctools'
-	def install
-	end 
+  homepage 'https://github.com/lksesham/homebrew-ctools'
+
 end
