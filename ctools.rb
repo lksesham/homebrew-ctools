@@ -8,4 +8,5 @@ cask 'ctools' do
   name 'cirrustools'
   homepage 'https://github.com/lksesham/homebrew-ctools'
 
+	binary 'launchDevContainer'
 end
