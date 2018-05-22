@@ -4,7 +4,7 @@ cask 'ctools' do
 	depends_on cask: 'xquartz'
 	depends_on cask: 'docker'
 
-  url 'https://github.com/lksesham/homebrew-ctools/blob/master/launchDevContainer.gz'
+  url 'https://github.com/lksesham/homebrew-ctools/blob/master/ctools.zip'
   name 'cirrustools'
   homepage 'https://github.com/lksesham/homebrew-ctools'
 
