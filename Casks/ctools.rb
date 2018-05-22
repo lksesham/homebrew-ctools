@@ -4,9 +4,9 @@ cask 'ctools' do
 	depends_on cask: 'xquartz'
 	depends_on cask: 'docker'
 
-  url 'https://github.com/lksesham/homebrew-ctools/blob/master/ctools.zip'
+  url 'https://github.com/lksesham/homebrew-ctools/blob/master/LaunchDC.dmg'
   name 'cirrustools'
   homepage 'https://github.com/lksesham/homebrew-ctools'
 
-	binary 'launchDevContainer'
+	app 'lcd.app'
 end
