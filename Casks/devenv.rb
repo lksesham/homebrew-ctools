@@ -9,6 +9,6 @@ cask 'devenv' do
   homepage 'https://github.com/lksesham/homebrew-ctools'
 	depends_on macos: '>= :yosemite'
 
-	app 'launchDevContainer.app'
+	app 'Launch-dev-container.app'
 
 end
