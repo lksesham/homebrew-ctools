@@ -1,4 +1,4 @@
-cask 'ctools' do
+cask 'devenv' do
   version '0.1'
   sha256 'da6b4bea671b84c0e50b72228dcd44ba408468ddb0c41ed0c486402bb7da6b7f'
 	depends_on cask: 'xquartz'
