@@ -1,6 +1,6 @@
 cask 'devenv' do
   version '0.2'
-  sha256 '86f38c4754a0c6cf7e57092dde3468f91406d560c566ebbb8932dca28945e3ef'
+  sha256 '41d6b4c8f82f9fba94d2a8f2e75335135be9db6fbadaf9b0197e3f847dec3ad4'
 	depends_on cask: 'xquartz'
 	depends_on cask: 'docker'
 
