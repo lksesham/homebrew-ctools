@@ -1,14 +1,20 @@
 cask 'devenv' do
-  version '0.2'
-  sha256 '64ef14ba971016a1a2159119e2ba88c31ec9d9636c2758eb99b4ae9530e4575c'
-	depends_on cask: 'xquartz'
+  version '0.3'
+  sha256 'ae62cf83359179eb19bc43ae7d9847b087f89a9224c483da261fd7af8204e36a'
 	depends_on cask: 'docker'
 
-  url "https:////github.com/lksesham/homebrew-ctools/raw/master/DevEnv.dmg"
+  url "https://s3.amazonaws.com/cirrus-deb-repo/osx/CTools.dmg"
   name 'cirrus tools'
   homepage 'https://github.com/lksesham/homebrew-ctools'
 	depends_on macos: '>= :yosemite'
 
-	app 'Launch-dev-container.app'
+	binary 'launch-dev-container'
+	binary 'stop-dev-container'
+	binary 'cleanup-dev-container'
 
+  uninstall delete:    [
+												'/usr/local/bin/launch-dev-container',
+												'/usr/local/bin/stop-dev-container',
+												'/usr/local/bin/cleanup-dev-container'
+											 ]
 end
