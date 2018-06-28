@@ -12,9 +12,4 @@ cask 'devenv' do
 	binary 'stop-dev-container'
 	binary 'cleanup-dev-container'
 
-  uninstall delete:    [
-												'/usr/local/bin/launch-dev-container',
-												'/usr/local/bin/stop-dev-container',
-												'/usr/local/bin/cleanup-dev-container'
-											 ]
 end
