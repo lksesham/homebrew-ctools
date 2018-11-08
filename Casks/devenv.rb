@@ -1,6 +1,6 @@
 cask 'devenv' do
-  version '0.3'
-  sha256 'ae62cf83359179eb19bc43ae7d9847b087f89a9224c483da261fd7af8204e36a'
+  version '0.4'
+  sha256 '29652520f8013a17d2ff45286132b3fa0e72a39dc6e652474c14a0bed18003b6'
 	depends_on cask: 'docker'
 
   url "https://s3.amazonaws.com/cirrus-deb-repo/osx/CTools.dmg"
